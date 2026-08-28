@@ -3,78 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Account</title>
+    <title>Registration Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
-        <h2>Create Your Account</h2>
+        <h2>Registration Form</h2>
 
         <form id="registerForm">
-
             <div class="input-group">
-                <label for="name">Full Name</label>
-                <input 
-                    type="text" 
-                    id="name" 
-                    placeholder="Enter your full name"
-                    autocomplete="name"
-                    required>
+                <label>Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
             </div>
 
             <div class="input-group">
-                <label for="email">Email Address</label>
-                <input 
-                    type="email" 
-                    id="email" 
-                    placeholder="Enter your email address"
-                    autocomplete="email"
-                    required>
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
             </div>
 
             <div class="input-group">
-                <label for="phone">Phone Number</label>
-                <input 
-                    type="tel" 
-                    id="phone" 
-                    placeholder="Enter your phone number"
-                    autocomplete="tel"
-                    required>
+                <label>Password</label>
+                <input type="password" id="password" placeholder="Enter password">
             </div>
 
             <div class="input-group">
-                <label for="password">Password</label>
-                <input 
-                    type="password" 
-                    id="password" 
-                    placeholder="Create a password"
-                    autocomplete="new-password"
-                    required>
+                <label>Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm password">
             </div>
 
-            <div class="input-group">
-                <label for="confirmPassword">Confirm Password</label>
-                <input 
-                    type="password" 
-                    id="confirmPassword" 
-                    placeholder="Re-enter your password"
-                    autocomplete="new-password"
-                    required>
-            </div>
-
-            <button type="submit">Create Account</button>
+            <button type="submit">Register</button>
 
             <p id="message"></p>
-
-            <p class="login-text">
-                Already have an account?
-                <a href="#">Login</a>
-            </p>
-
         </form>
     </div>
 
     <script src="script.js"></script>
 </body>
-</html>
+</html> change this code little bit
